@@ -1,0 +1,5 @@
+.event-item {
+  display: flex;
+  flex-direction: row;
+  max-height: 100%;
+}

@@ -1,0 +1,17 @@
+.date-tail {
+  border-bottom: 1px solid var(--gold-accent);
+  border-right: 1px solid var(--gold-accent);
+  width: 100px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.day-tail {
+  font-size: 4vh;
+  font-weight: bold;
+  color: var(--gold-main);
+}

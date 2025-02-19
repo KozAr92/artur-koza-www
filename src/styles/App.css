@@ -1,0 +1,34 @@
+@import "font.css";
+
+/*Colors of page*/
+:root {
+  --dark-main: #231f20;
+  --gold-main: #8e793e;
+  --gold-accent: #ad974f;
+  --grey-accent: #d2d5dd;
+  --font-grey: #eaeaea;
+  --transparent: rgba(0, 0, 0, 0.8);
+}
+/*:root {*/
+/*  --main-dark: #0D1B2A;*/
+/*  --accent-dark: #1B263B;*/
+/*  --main-blue: #415A77;*/
+/*  --accent-blue: #778DA9;*/
+/*  --font-grey: #E0E1DD;*/
+/*  --transparent: rgba(0, 0, 0, 0.8)*/
+/*}*/
+
+body {
+  font-family: "Lato";
+  font-weight: 300;
+  font-style: normal;
+}
+
+.background-image {
+  background-image: url("../images/main-background-2.JPG");
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top right;
+}

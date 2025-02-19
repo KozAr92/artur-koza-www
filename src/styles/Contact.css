@@ -1,0 +1,25 @@
+.contact-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.contact-detail {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  justify-content: center;
+}
+
+.detail-label {
+  padding: 0 20px;
+  font-size: 22px;
+  font-weight: 300;
+}
+
+.detail-data {
+  padding: 0 20px;
+  font-size: 22px;
+  font-weight: bold;
+}

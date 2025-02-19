@@ -1,0 +1,80 @@
+.page-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 40px;
+  font-size: 4vh;
+  letter-spacing: 2px;
+}
+
+.close-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: var(--gold-main);
+  padding: 0;
+
+  border: none; /* Remove border */
+  outline: none; /* Remove outline */
+  box-shadow: none; /* Remove any shadow */
+  background-color: transparent; /* Background color */
+  cursor: pointer; /* Change cursor on hover */
+  transition: background-color 0.3s ease;
+}
+
+.close-button:hover,
+.close-button:focus,
+.close-button:active {
+  color: var(--gold-accent);
+  border: none; /* Ensure no border on hover/focus/active */
+  outline: none; /* Ensure no outline on hover/focus/active */
+  box-shadow: none; /* Ensure no shadow on hover/focus/active */
+  background-color: transparent; /* Change background color on hover */
+  transition: color 0.3s ease;
+}
+
+.page,
+.main-contact-page {
+  position: absolute;
+  color: var(--font-grey);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  justify-content: flex-start;
+
+  height: 80%;
+}
+
+.main-contact-page {
+  height: 45%;
+}
+
+.events-page {
+  overflow-y: scroll;
+}
+
+.page-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--transparent);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ScrollbarsCustom-Track {
+  background-color: rgba(0, 0, 0, 0) !important;
+  border-radius: 0 !important;
+}
+
+.ScrollbarsCustom-Thumb {
+  background-color: var(--gold-main) !important;
+  border-radius: 0 !important;
+}

@@ -1,0 +1,20 @@
+{
+  "subtitle": "CONDUCTOR",
+  "home": "Home page",
+  "about": "About",
+  "events": "Events",
+  "media": "Media",
+  "contact": "Contact",
+  "phone": "Phone number",
+  "mail": "E-mail address",
+  "feb": "FEB",
+  "mar": "MAR",
+  "apr": "APR",
+  "may": "MAY",
+  "jun": "JUN",
+  "event-link": "Description",
+  "event-tickets": "Tickets",
+  "oratorio-type": "Oratorio concert",
+  "choral-type": "Choir concert",
+  "symphonic-type": "Symphonic concert"
+}

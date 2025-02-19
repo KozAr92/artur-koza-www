@@ -1,0 +1,38 @@
+.page-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  width: 100vw;
+  color: var(--font-grey);
+}
+
+.main-header {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 150px;
+  cursor: default;
+  margin-bottom: 60vh;
+}
+
+.main-header-title {
+  padding: 30px;
+  font-size: 6vh;
+  letter-spacing: 5px;
+}
+
+.main-header-subtitle {
+  padding: 0 30px;
+  font-size: 2.8vh;
+  letter-spacing: 13px;
+}
+
+.surname {
+  font-weight: bold;
+}
+
+.tHuMbY {
+  color: yellow;
+}
