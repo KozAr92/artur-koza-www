@@ -1,11 +1,16 @@
 {
   "files": [],
+  "include": [
+    "src/**/*.ts",
+    "vite.config.ts" // Ensure your vite.config.ts is included
+  ],
   "references": [
     { "path": "./tsconfig.app.json" },
     { "path": "./tsconfig.node.json" }
   ],
   "compilerOptions": {
     "resolveJsonModule": true,
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "types": ["node"]
   }
 }
