@@ -4,6 +4,7 @@
   "about": "About",
   "events": "Events",
   "media": "Media",
+  "reviews": "Reviews",
   "contact": "Contact",
   "phone": "Phone number",
   "mail": "E-mail address",
@@ -16,5 +17,12 @@
   "event-tickets": "Tickets",
   "oratorio-type": "Oratorio concert",
   "choral-type": "Choir concert",
-  "symphonic-type": "Symphonic concert"
+  "symphonic-type": "Symphonic concert",
+  "web-description": "Description from Lodz Philharmonic Website",
+  "footer": "Designed and created by Artur Koza. Photos on page by Dariusz Kulesza come from Archives of Artur Rubinstein Lodz Philharmonic. All rights reserved.",
+  "review-title": "Reviews",
+  "media-cd": "Albums",
+  "interview-title": "Interviews",
+  "media-links": "External links",
+  "review-link": "Review link"
 }

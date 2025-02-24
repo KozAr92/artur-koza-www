@@ -3,6 +3,7 @@ import Header from "./Header.tsx";
 import { Fragment, useContext } from "react";
 import { useTranslation } from "react-i18next";
 import { PageContext } from "../context/PageContext.tsx";
+import { Footer } from "./Footer.tsx";
 
 export const HomePage = () => {
   const { i18n } = useTranslation();
@@ -10,8 +11,9 @@ export const HomePage = () => {
 
   return (
     <Fragment>
-      <MainMenu />
+      {!activePage && <MainMenu />}
       {!activePage && <Header key={i18n.language} />}
+      {!activePage && <Footer />}
     </Fragment>
   );
 };

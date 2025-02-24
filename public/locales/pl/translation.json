@@ -4,6 +4,7 @@
   "about": "O mnie",
   "events": "Wydarzenia",
   "media": "Media",
+  "reviews": "Recenzje",
   "contact": "Kontakt",
   "phone": "Telefon",
   "mail": "E-mail",
@@ -16,5 +17,12 @@
   "event-tickets": "Bilety",
   "oratorio-type": "Koncert oratoryjny",
   "choral-type": "Koncert chóralny",
-  "symphonic-type": "Koncert symfoniczny"
+  "symphonic-type": "Koncert symfoniczny",
+  "web-description": "Opis ze strony Filharmonii Łódzkiej",
+  "footer": "Projekt i wykonanie Artur Koza. Zdjęcia autorstwa Dariusza Kuleszy pochodzą z archiwum Filharmonii Łódzkiej im. Artura Rubinsteina. Wszelkie prawa zastrzeżone.",
+  "review-title": "Recenzje",
+  "media-cd": "Płyty",
+  "interview-title": "Wywiady",
+  "media-links": "Linki zewnętrzne",
+  "review-link": "Link do recenzji"
 }

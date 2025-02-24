@@ -57,6 +57,12 @@
   overflow-y: scroll;
 }
 
+.about-page {
+  display: flex;
+  flex-direction: row;
+  height: inherit;
+}
+
 .page-overlay {
   position: fixed;
   top: 0;

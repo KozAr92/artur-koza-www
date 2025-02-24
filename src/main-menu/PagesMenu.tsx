@@ -1,6 +1,7 @@
 import PageMenuItem, { PageMenuItemProps } from "./PageMenuItem.tsx";
 import { PAGES } from "../pages/pages.ts";
 import { t } from "i18next";
+import { AnimatePresence } from "framer-motion";
 
 export const PagesMenu = () => {
   const menuItems = PAGES.reduce<PageMenuItemProps[]>((menuItems, page) => {
@@ -9,15 +10,17 @@ export const PagesMenu = () => {
 
   return (
     <div className={"pages-menu"}>
-      {menuItems.map((menuItem: PageMenuItemProps) => {
-        return (
-          <PageMenuItem
-            label={menuItem.label}
-            key={menuItem.id}
-            id={menuItem.id}
-          />
-        );
-      })}
+      <AnimatePresence>
+        {menuItems.map((menuItem: PageMenuItemProps) => {
+          return (
+            <PageMenuItem
+              label={menuItem.label}
+              key={menuItem.id}
+              id={menuItem.id}
+            />
+          );
+        })}
+      </AnimatePresence>
     </div>
   );
 };

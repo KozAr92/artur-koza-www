@@ -1,8 +1,7 @@
-export const ABOUT: any = {
-  title: "O mnie",
-  id: "about",
-  mainContent:
-    "\n" +
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid animi debitis, facilis id laborum libero necessitatibus nulla, quisquam quo recusandae reiciendis, sapiente! Aliquam aspernatur deserunt dolore harum inventore quasi reprehenderit!",
-  additionalInfo: "Nope",
-};
+export const ABOUT_DESCRIPTION_PL =
+  "Artur Koza jest absolwentem Akademii Muzycznej im. Karola Lipińskiego we Wrocławiu w klasie dyrygentury symfoniczno-operowej prof. Mieczysława Gawrońskiego (2017) oraz gitary klasycznej prof. Piotra Zaleskiego (2016). W 2011 roku ukończył z wyróżnieniem Ogólnokształcącą Szkołę Muzyczną im. H. Wieniawskiego w Łodzi. Od 2018 roku współpracuje z Chórem Narodowego Forum Muzyki we Wrocławiu jako dyrygent asystent. W latach 2018–2021 był również dyrygentem asystentem Polskiego Narodowego Chóru Młodzieżowego, w którym w latach 2013–2018 był artystą śpiewakiem. Z zespołami tymi zrealizował wiele projektów artystycznych. Brał udział w nagraniu płyty Śpiewajmy! Młodzi – młodym nominowanej do nagrody Fryderyk 2020. Pracował również jako dyrygent asystent w Teatrze Wielkim w Poznaniu, gdzie przygotował premierę Napoju miłosnego Gaetana Donizettiego. Doskonalił swoje umiejętności na kursach prowadzonych m.in. przez Gabriela Chmurę, Achima Holuba czy George Tchitchinadze. Dyrygował zespołami kameralnymi, chórami oraz orkiestrami. Prowadził wykonania oper, musicali, utworów oratoryjnych, symfonicznych oraz kameralnych. Dokonał wielu prawykonań utworów wrocławskich kompozytorów.";
+
+export const ABOUT_FIRST_INFO_PL =
+  "Chórmistrz Filharmonii Łódzkiej im. Artura Rubinsteina oraz dyrygent CZYŻby Orkiestry";
+export const ABOUT_FIRST_INFO_EN =
+  "Choirmaster of Artur Rubinstein Philharmonic Choir and conductor of CZYŻby Orchestra";

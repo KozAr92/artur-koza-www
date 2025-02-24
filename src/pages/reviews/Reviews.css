@@ -1,0 +1,32 @@
+.review-tail {
+  border-bottom: 1px solid var(--gold-main);
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+
+.review-tail-title-link {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: baseline;
+}
+
+.review-tail-title {
+  color: var(--font-grey);
+  font-size: 20px;
+  font-weight: bold;
+  padding-right: 10px;
+  height: 35px;
+}
+
+.review-tail-link {
+  padding-left: 10px;
+  height: 35px;
+  font-size: 20px;
+}
+
+.reviews-page {
+    overflow: auto;
+    height: 100%;
+}
