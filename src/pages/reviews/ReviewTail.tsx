@@ -1,5 +1,5 @@
 import { ExternalLink } from "react-external-link";
-import {t} from "i18next";
+import { t } from "i18next";
 
 type ReviewTailProps = {
   title: string;

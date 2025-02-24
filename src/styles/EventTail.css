@@ -1,0 +1,80 @@
+.event-tail {
+  border-bottom: 1px solid var(--gold-accent);
+  width: 100%;
+  margin-left: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.title-tail {
+  font-size: 4vh;
+  font-weight: bold;
+  color: var(--gold-main);
+}
+
+.tickets-tail {
+  margin-left: 10px;
+}
+
+.tickets-tail {
+  color: var(--gold-main);
+}
+
+.tickets-tail {
+  color: var(--gold-accent);
+}
+
+.links-tail {
+  display: flex;
+  flex-direction: row;
+}
+
+@media only screen and (max-width: 768px) {
+  .event-tail {
+    border-bottom: 1px solid var(--gold-accent);
+    width: 100%;
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .title-tail {
+    font-size: 15px;
+    font-weight: bold;
+    color: var(--gold-main);
+  }
+
+  .location-tail {
+    font-size: 13px;
+  }
+
+  .type-tail {
+    font-size: 13px;
+  }
+
+  .tickets-tail {
+    margin-left: 10px;
+  }
+
+  .tickets-tail {
+    color: var(--gold-main);
+  }
+
+  .tickets-tail {
+    color: var(--gold-accent);
+  }
+
+  .links-tail {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .day-tail {
+    font-size: 20px;
+  }
+
+  .month-tail,
+  .year-tail {
+    font-size: 15px;
+  }
+}

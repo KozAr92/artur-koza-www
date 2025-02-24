@@ -13,10 +13,10 @@
 }
 
 @font-face {
-    font-family: "Lato";
-    src: url("../fonts/Lato-Italic.ttf") format("truetype");
-    font-weight: 400;
-    font-style: italic;
+  font-family: "Lato";
+  src: url("../fonts/Lato-Italic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
 }
 
 /*@font-face {*/

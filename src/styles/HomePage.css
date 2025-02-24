@@ -26,15 +26,11 @@
 .main-header-subtitle {
   padding: 0 30px;
   font-size: 2.8vh;
-  letter-spacing: 13px;
+  letter-spacing: 15px;
 }
 
 .surname {
   font-weight: bold;
-}
-
-.tHuMbY {
-  color: yellow;
 }
 
 .footer {
@@ -45,4 +41,37 @@
   font-weight: 300;
   padding: 5px;
   font-size: 12px;
+}
+
+@media only screen and (max-width: 768px) {
+  .main-header {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    cursor: default;
+    margin: 0;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 10vh;
+    height: inherit;
+  }
+
+  .main-header-title {
+    font-size: 5vh;
+    letter-spacing: 5px;
+  }
+
+  .main-header-subtitle {
+    font-size: 2vh;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: var(--transparent);
+    font-weight: 300;
+    padding: 5px;
+    font-size: 6px;
+  }
 }

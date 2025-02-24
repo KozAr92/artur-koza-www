@@ -1,4 +1,4 @@
-import "./EventTail.css";
+import "../../styles/EventTail.css";
 import { ExternalLink } from "react-external-link";
 import { t } from "i18next";
 

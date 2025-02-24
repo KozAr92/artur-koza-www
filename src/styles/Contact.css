@@ -1,7 +1,6 @@
 .contact-page {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   height: 100%;
 }
 
@@ -14,13 +13,36 @@
 
 .detail-label {
   padding: 0 20px;
-  font-size: 22px;
+  font-size: var(--contact-font-size);
   font-weight: 300;
 }
 
 .detail-data {
   padding: 0 20px;
-  font-size: 22px;
+  font-size: var(--contact-font-size);
   font-weight: bold;
   color: var(--gold-main);
+}
+
+@media only screen and (max-width: 768px) {
+  .contact-detail {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .detail-label {
+    padding: 0 5px;
+    font-size: 15px;
+    font-weight: 300;
+  }
+
+  .detail-data {
+    padding: 0 20px;
+    font-size: 17px;
+    font-weight: bold;
+    color: var(--gold-main);
+  }
 }

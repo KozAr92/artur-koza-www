@@ -1,4 +1,4 @@
-import "./DateTail.css";
+import "../../styles/DateTail.css";
 import { t } from "i18next";
 
 type DateTailProps = {

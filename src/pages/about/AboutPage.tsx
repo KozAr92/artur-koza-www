@@ -1,4 +1,4 @@
-import "./About.css";
+import "../../styles/About.css";
 import { LongParagraph } from "./LongParagraph.tsx";
 import {
   ABOUT_DESCRIPTION_PL,

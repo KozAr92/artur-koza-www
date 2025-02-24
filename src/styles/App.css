@@ -1,6 +1,5 @@
 @import "font.css";
 
-/*Colors of page*/
 :root {
   --dark-main: #231f20;
   --gold-main: #8e793e;
@@ -8,18 +7,15 @@
   --grey-accent: #d2d5dd;
   --font-grey: #eaeaea;
   --transparent: rgba(0, 0, 0, 0.8);
+  --paragraph-font-size: min(1.5vw, 1.3em);
+  --header-font-size: 4vh;
+  --menu-font-size: min(1.5vw, 1.7em);
+  --contact-font-size: 3.5vh;
+  --mobile-width: 768px;
 }
-/*:root {*/
-/*  --main-dark: #0D1B2A;*/
-/*  --accent-dark: #1B263B;*/
-/*  --main-blue: #415A77;*/
-/*  --accent-blue: #778DA9;*/
-/*  --font-grey: #E0E1DD;*/
-/*  --transparent: rgba(0, 0, 0, 0.8)*/
-/*}*/
 
 body {
-  font-family: "Lato";
+  font-family: "Montserrat";
   font-weight: 300;
   font-style: normal;
 }
@@ -31,4 +27,37 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top right;
+}
+
+a[href^="http"] {
+  color: var(--gold-main); /* Change text color */
+  text-decoration: none; /* Underline the link */
+  font-size: var(--paragraph-font-size);
+}
+
+a[href^="http"]:hover {
+  color: var(--gold-accent); /* Change text color */
+  text-decoration: none; /* Underline the link */
+}
+
+@media only screen and (max-width: 768px) {
+  .background-image {
+    background-image: url("../images/main-background-2-mobile.JPG");
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+  }
+
+  a[href^="http"] {
+    color: var(--gold-main); /* Change text color */
+    text-decoration: none; /* Underline the link */
+    font-size: 13px;
+  }
+
+  a[href^="http"]:hover {
+    color: var(--gold-accent); /* Change text color */
+    text-decoration: none; /* Underline the link */
+  }
 }

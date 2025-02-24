@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "title": "Płyta z wirażami",
+    "link": "https://prestoportal.pl/jidzie-burzo-choru-filharmonii-lodzkiej",
+    "description": "Recenzja pierwszego albumu Chóru FŁ nagranego z Arturem Kozą."
+  },
+  {
+    "id": 2,
+    "title": "Muzyczna uczta czy muzyczne przeżycie?",
+    "link": "https://www.trojmiasto.pl/kultura/Muzyczna-uczta-czy-mistyczne-przezycie-To-wykonanie-poruszylo-serca-n199386.html?fbclid=IwY2xjawIof9FleHRuA2FlbQIxMQABHQwHDm1gLIzrqOtOWfcJA8SsN0efpqOE1L7D_6w633O4if90Bx1IAay7sQ_aem_gjfgoxYngosMxyYJZaiGYA",
+    "description": "Recenzja wykonania Ein Deutsches Requiem J. Brahmsa w Polskiej Filharmonii Bałtyckiej."
+  },
+  {
+    "id": 3,
+    "title": "Mahler wymaga",
+    "link": "https://prestoportal.pl/mahler-wymaga-final-sezonu-artystycznego-w-filharmonii-lodzkiej?fbclid=IwZXh0bgNhZW0CMTEAAR0ND0g5pVMiaED3YQCtFW7zgCRAHRJJqWXuhfSrDJu3ELU532GaZlohyTM_aem__FLcn2If_JsSTjflZBa3Vw",
+    "description": "Recenzja finału zesonu 2023/2024 w Filharmonii Łódzkiej."
+  },
+  {
+    "id": 4,
+    "title": "Czym jest życie i czym śmierć?",
+    "link": "https://ruchmuzyczny.pl/article/4439?fbclid=IwY2xjawIogI1leHRuA2FlbQIxMQABHXQQ0JbKIrRSjaPOyqpoZtf5UHxK9SDXxPOFbcJNiMhcnclcdxmmGrL1JA_aem_obNDJ49M5TP2yKf6r9DO0A",
+    "description": "Recenzja finału zesonu 2023/2024 w Filharmonii Łódzkiej."
+  },
+  {
+    "id": 5,
+    "title": "Partowskie rozświetlanie",
+    "link": "https://ruchmuzyczny.pl/article/4207-partowskie-rozswietlanie?fbclid=IwY2xjawIogMlleHRuA2FlbQIxMQABHZ4l6pvUvADLJub91wVtRszRVkt8-xg6TrqF8ZVsUrLKdUCHcz574IdB5Q_aem_OMTBj8YbO8aod1ldmNauoQ",
+    "description": "Recenzja koncertu Chóru FŁ - Pasja A. Parta."
+  },
+  {
+    "id": 6,
+    "title": "W przededniu jubileuszu",
+    "link": "https://ruchmuzyczny.pl/article/3865-w-przededniu-jubileuszu?fbclid=IwY2xjawIogSpleHRuA2FlbQIxMQABHUvkehnRAaI3LlKZ-2evJ23PcIoqdboRQdCUkrNYMmutvtrisxMuSC-dCw_aem_T157ah0V1Z3hS-eUcKxNCA",
+    "description": "Recenzja zimowego koncertu Chóru FŁ."
+  },
+  {
+    "id": 7,
+    "title": "Mniej pozwala usłyszeć więcej",
+    "link": "https://prestoportal.pl/mniej-pozwala-uslyszec-wiecej-koncert-pamieci-jaroslawa-breka-w-filharmonii-lodzkiej?fbclid=IwY2xjawIogV5leHRuA2FlbQIxMQABHWvh2XI66r5PHfEjxIRqcOTu1IH1ylXFq0eU0POmPt55VislOMUGAVlkRw_aem_UsqX49ZWnUNlsGdqGuB6Lw",
+    "description": "Recenzja wykonania Requiem G. Verdiego w Filharmonii Łódzkiej."
+  }
+]

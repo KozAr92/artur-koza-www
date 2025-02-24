@@ -1,4 +1,4 @@
-import "./Events.css";
+import "../../styles/Events.css";
 import { EventsList } from "./eventsList.ts";
 import { EventElement } from "./EventElement.tsx";
 import Scrollbar from "react-scrollbars-custom";
