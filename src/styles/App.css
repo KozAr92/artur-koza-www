@@ -21,7 +21,7 @@ body {
 }
 
 .background-image {
-  background-image: url("../images/main-background-2.JPG");
+  /*background-image: url("/artur-koza-www/images/main-background-2.JPG");*/
   height: 100vh;
   width: 100vw;
   background-size: cover;
@@ -42,7 +42,7 @@ a[href^="http"]:hover {
 
 @media only screen and (max-width: 768px) {
   .background-image {
-    background-image: url("../images/main-background-2-mobile.JPG");
+    /*background-image: url("../images/main-background-2-mobile.JPG");*/
     height: 100vh;
     width: 100vw;
     background-size: cover;
