@@ -10,6 +10,7 @@ const App = () => {
     <Fragment>
       <PageContextProvider>
         <div className={"background-image"}>
+          <img src={"/images/main-background-2.JPG"} alt="main background" />
           <PageContainer>
             <HomePage />
             <PageWrapper />
