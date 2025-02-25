@@ -18,7 +18,7 @@ export const ReviewsPage = () => {
   useEffect(() => {
     const fetchReviews = async () => {
       try {
-        const response = await fetch("/artur-koza-www/data/reviews.json");
+        const response = await fetch("/Data/reviews.json");
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
         }
