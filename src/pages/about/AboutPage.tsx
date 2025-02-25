@@ -7,8 +7,8 @@ import {
 } from "./about.ts";
 import { ShortParagraph } from "./ShortParagraph.tsx";
 import { ExternalLink } from "react-external-link";
-// import aboutImage from "../../images/about-image.jpg";
-// import aboutImage from "/images/about-image.jpg?url";
+// import aboutImage from "../../Images/about-image.jpg";
+// import aboutImage from "/Images/about-image.jpg?url";
 import Scrollbar from "react-scrollbars-custom";
 import { useTranslation } from "react-i18next";
 import { t } from "i18next";
@@ -20,7 +20,7 @@ export const AboutPage = () => {
   return (
     <div className={"about-page"}>
       <div className={"about-image"}>
-        <img src={"/images/about-image.jpg"} alt={"about-image"} />
+        <img src={"/Images/about-image.jpg"} alt={"about-image"} />
       </div>
       <Scrollbar style={{ width: "60%" }}>
         <div className={"about-description"}>
