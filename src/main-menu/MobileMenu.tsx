@@ -1,6 +1,6 @@
 import { useContext, useEffect, useRef, useState } from "react";
-// import MenuButton from "../icons/menu_40dp_8E793E_FILL0_wght400_GRAD0_opsz40.svg";
-import MenuButton from "/artur-koza-www/images/menu_40dp_8E793E_FILL0_wght400_GRAD0_opsz40.svg";
+// import MenuButton from "../icons/menu-icon.svg";
+import MenuButton from "/artur-koza-www/images/menu-icon.svg";
 import { PagesMenu } from "./PagesMenu.tsx";
 import { LanguageMenu } from "./LanguageMenu.tsx";
 import { AnimatePresence, motion } from "framer-motion";
