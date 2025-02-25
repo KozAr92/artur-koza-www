@@ -12,7 +12,7 @@ i18n
     debug: true,
 
       backend: {
-        loadPath: "/artur-koza-www/locales/{{lng}}/translation.json",
+        loadPath: "/locales/{{lng}}/translation.json",
       },
 
     interpolation: {

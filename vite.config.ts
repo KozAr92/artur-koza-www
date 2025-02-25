@@ -4,7 +4,7 @@ import svgr from "vite-plugin-svgr";
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/',
+  base: '/artur-koza-www/artur-koza-www/',
   plugins: [react(), svgr()],
   assetsInclude: ["**/*.JPG", "**/*.jpg"],
   optimizeDeps: {
