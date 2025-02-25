@@ -2,7 +2,6 @@ import Scrollbar from "react-scrollbars-custom";
 import "../../styles/Reviews.css";
 import { ReviewTail } from "./ReviewTail.tsx";
 import { useEffect, useState } from "react";
-import "../../../public/data/reviews.json";
 
 type Review = {
   id: number;
@@ -19,7 +18,7 @@ export const ReviewsPage = () => {
   useEffect(() => {
     const fetchReviews = async () => {
       try {
-        const response = await fetch("/data/reviews.json");
+        const response = await fetch("/artur-koza-www/data/reviews.json");
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
         }

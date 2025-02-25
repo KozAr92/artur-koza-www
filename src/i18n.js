@@ -11,6 +11,10 @@ i18n
     fallbackLng: "pl",
     debug: true,
 
+      backend: {
+        loadPath: "/artur-koza-www/locales/{{lng}}/translation.json",
+      },
+
     interpolation: {
       escapeValue: false,
     },
