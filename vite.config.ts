@@ -10,8 +10,5 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ["react-custom-scrollbars"],
   },
-  build: {
-    outDir: 'build', // Default output directory
-  },
   publicDir: 'public',
 });
