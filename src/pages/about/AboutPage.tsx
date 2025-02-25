@@ -8,7 +8,7 @@ import {
 import { ShortParagraph } from "./ShortParagraph.tsx";
 import { ExternalLink } from "react-external-link";
 // import aboutImage from "../../images/about-image.jpg";
-import aboutImage from "/images/about-image.jpg";
+import aboutImage from "/images/about-image.jpg?url";
 import Scrollbar from "react-scrollbars-custom";
 import { useTranslation } from "react-i18next";
 import { t } from "i18next";
