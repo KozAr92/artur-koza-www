@@ -1,6 +1,6 @@
 import { useContext, useEffect, useRef, useState } from "react";
 // import MenuButton from "../icons/menu-icon.svg";
-import MenuButton from "/artur-koza-www/images/menu-icon.svg";
+// import MenuButton from "/artur-koza-www/images/menu-icon.svg";
 import { PagesMenu } from "./PagesMenu.tsx";
 import { LanguageMenu } from "./LanguageMenu.tsx";
 import { AnimatePresence, motion } from "framer-motion";
@@ -38,7 +38,7 @@ export const MobileMenu = () => {
         ref={menuButtonRef}
         onClick={handleClick}
       >
-        <img src={MenuButton} alt={"menu-button"} />{" "}
+        {/*<img src={MenuButton} alt={"menu-button"} />{" "}*/}
       </button>
       {showMenu && (
         <AnimatePresence>
